@@ -69,7 +69,7 @@ function App() {
 				<meta property='og:type' content='website' />
 				<meta property='og:url' content='https://seo-test-gules.vercel.app/' />
 				<meta property='og:title' content='агсл' />
-				<meta property='og:description' content='' />
+				<meta property='og:description' content='asdwadawd' />
 				<meta
 					property='og:image'
 					content='https://metatags.io/images/meta-tags.png'
@@ -81,7 +81,7 @@ function App() {
 					content='https://seo-test-gules.vercel.app/'
 				/>
 				<meta property='twitter:title' content='агсл' />
-				<meta property='twitter:description' content='' />
+				<meta property='twitter:description' content='asdwadawd' />
 				<meta
 					property='twitter:image'
 					content='https://metatags.io/images/meta-tags.png'
