@@ -49,10 +49,16 @@ function App() {
 					property='twitter:image'
 					content='https://metatags.io/images/meta-tags.png'
 				/>
-				<meta property='og:title' content='Title' />
-				<meta property='og:site_name' content='Site name' />
-				<meta property='og:description' content='Description' />
-				<meta property='og:image' content='Link to your logo' />
+				<meta property='og:title' content='The Rock' />
+				<meta property='og:type' content='video.movie' />
+				<meta
+					property='og:url'
+					content='https://www.imdb.com/title/tt0117500/'
+				/>
+				<meta
+					property='og:image'
+					content='https://ia.media-imdb.com/images/rock.jpg'
+				/>
 			</Helmet>
 			<>
 				{/* Content here */}
