@@ -10,14 +10,13 @@ function App() {
 	return (
 		<HelmetProvider>
 			<Helmet>
-				<title>
-					Design+Code - Learn to design and code React and Swift apps
-				</title>
+				<title>My Page Title</title>
+				<meta property='og:title' content='My Page Title' />
+				<meta property='og:description' content='My Page Description' />
 				<meta
-					name='description'
-					content='Learn design and code by building real apps with React and Swift. Complete courses about UI design, web and iOS development using Figma, CSS, React Hooks and SwiftUI.'
+					property='og:image'
+					content='https://media.gettyimages.com/id/2131911406/photo/married-couple-of-mixed-ethnicity-visiting-a-japanese-shrine.jpg?s=2048x2048&w=gi&k=20&c=TO3jRuMT_698Gb7R1s5A68_HUcy_peEH0Of-KD63wag='
 				/>
-				;
 			</Helmet>
 			<>
 				{/* Content here */}
