@@ -49,6 +49,10 @@ function App() {
 					property='twitter:image'
 					content='https://metatags.io/images/meta-tags.png'
 				/>
+				<meta property='og:title' content='Title' />
+				<meta property='og:site_name' content='Site name' />
+				<meta property='og:description' content='Description' />
+				<meta property='og:image' content='Link to your logo' />
 			</Helmet>
 			<>
 				{/* Content here */}
