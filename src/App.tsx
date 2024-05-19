@@ -62,24 +62,30 @@ function App() {
 		// </Helmet>
 		<>
 			<Helmet>
-				<title>My Page Title</title>
-				<meta name='description' content='This is a description of my page' />
-				<meta name='keywords' content='react, meta tags, seo' />
-				<meta name='author' content='Your Name' />
-				<meta property='og:title' content='My Page Title' />
+				<title>агсл</title>
+				<meta name='title' content='агсл' />
+				<meta name='description' content='' />
+
+				<meta property='og:type' content='website' />
+				<meta property='og:url' content='https://seo-test-gules.vercel.app/' />
+				<meta property='og:title' content='агсл' />
+				<meta property='og:description' content='' />
 				<meta
-					property='og:description'
-					content='This is a description of my page'
+					property='og:image'
+					content='https://metatags.io/images/meta-tags.png'
 				/>
-				<meta property='og:image' content='https://example.com/image.jpg' />
-				<meta property='og:url' content='https://example.com/my-page' />
-				<meta name='twitter:title' content='My Page Title' />
+
+				<meta property='twitter:card' content='summary_large_image' />
 				<meta
-					name='twitter:description'
-					content='This is a description of my page'
+					property='twitter:url'
+					content='https://seo-test-gules.vercel.app/'
 				/>
-				<meta name='twitter:image' content='https://example.com/image.jpg' />
-				<meta name='twitter:card' content='summary_large_image' />
+				<meta property='twitter:title' content='агсл' />
+				<meta property='twitter:description' content='' />
+				<meta
+					property='twitter:image'
+					content='https://metatags.io/images/meta-tags.png'
+				/>
 			</Helmet>
 			{/* Content here */}
 			<div>
