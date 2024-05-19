@@ -50,7 +50,7 @@ function App() {
 					content='https://metatags.io/images/meta-tags.png'
 				/>
 				<meta property='og:title' content='The Rock' />
-				<meta property='og:type' content='video.movie' />
+				<meta property='og:type' content='website' />
 				<meta
 					property='og:url'
 					content='https://www.imdb.com/title/tt0117500/'
