@@ -10,14 +10,23 @@ function App() {
 	return (
 		<HelmetProvider>
 			<Helmet>
-				<title>Дайджест</title>
-				<meta name='title' content='Дайджест' />
-				<meta name='description' content='Тут описание дайджеста' />
+				<title> Дайджест Дайджест Дайджест Дайджест</title>
+				<meta name='title' content=' Дайджест Дайджест Дайджест Дайджест' />
+				<meta
+					name='description'
+					content='Тут описание дайджеста Тут описание дайджеста Тут описание дайджеста'
+				/>
 
 				<meta property='og:type' content='website' />
 				<meta property='og:url' content='https://seo-test-gules.vercel.app/' />
-				<meta property='og:title' content='Дайджест' />
-				<meta property='og:description' content='Тут описание дайджеста' />
+				<meta
+					property='og:title'
+					content=' Дайджест Дайджест Дайджест Дайджест'
+				/>
+				<meta
+					property='og:description'
+					content='Тут описание дайджеста Тут описание дайджеста Тут описание дайджеста'
+				/>
 				<meta
 					property='og:image'
 					content='https://metatags.io/images/meta-tags.png'
@@ -28,8 +37,14 @@ function App() {
 					property='twitter:url'
 					content='https://seo-test-gules.vercel.app/'
 				/>
-				<meta property='twitter:title' content='Дайджест' />
-				<meta property='twitter:description' content='Тут описание дайджеста' />
+				<meta
+					property='twitter:title'
+					content=' Дайджест Дайджест Дайджест Дайджест'
+				/>
+				<meta
+					property='twitter:description'
+					content='Тут описание дайджеста Тут описание дайджеста Тут описание дайджеста'
+				/>
 				<meta
 					property='twitter:image'
 					content='https://metatags.io/images/meta-tags.png'
