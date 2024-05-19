@@ -10,12 +10,29 @@ function App() {
 	return (
 		<HelmetProvider>
 			<Helmet>
-				<title>My Page Title</title>
-				<meta property='og:title' content='My Page Title' />
-				<meta property='og:description' content='My Page Description' />
+				<title>Дайджест</title>
+				<meta name='title' content='Дайджест' />
+				<meta name='description' content='Тут описание дайджеста' />
+
+				<meta property='og:type' content='website' />
+				<meta property='og:url' content='https://seo-test-gules.vercel.app/' />
+				<meta property='og:title' content='Дайджест' />
+				<meta property='og:description' content='Тут описание дайджеста' />
 				<meta
 					property='og:image'
-					content='https://media.gettyimages.com/id/2131911406/photo/married-couple-of-mixed-ethnicity-visiting-a-japanese-shrine.jpg?s=2048x2048&w=gi&k=20&c=TO3jRuMT_698Gb7R1s5A68_HUcy_peEH0Of-KD63wag='
+					content='https://metatags.io/images/meta-tags.png'
+				/>
+
+				<meta property='twitter:card' content='summary_large_image' />
+				<meta
+					property='twitter:url'
+					content='https://seo-test-gules.vercel.app/'
+				/>
+				<meta property='twitter:title' content='Дайджест' />
+				<meta property='twitter:description' content='Тут описание дайджеста' />
+				<meta
+					property='twitter:image'
+					content='https://metatags.io/images/meta-tags.png'
 				/>
 			</Helmet>
 			<>
