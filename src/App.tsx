@@ -64,7 +64,7 @@ function App() {
 			<Helmet>
 				<title>агсл</title>
 				<meta name='title' content='агсл' />
-				<meta name='description' content='' />
+				<meta name='description' content='asdwadawd' />
 
 				<meta property='og:type' content='website' />
 				<meta property='og:url' content='https://seo-test-gules.vercel.app/' />
